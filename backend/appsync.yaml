@@ -38,7 +38,7 @@ Resources:
   ApiKey:
     Type: 'AWS::AppSync::ApiKey'
     Properties:
-      Expires: 1577750400
+      Expires: 1621095479
       ApiId: !GetAtt 'GraphQLApi.ApiId'
   GraphQLSchema:
     Type: 'AWS::AppSync::GraphQLSchema'
